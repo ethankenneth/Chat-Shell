@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<head>
+<title>Chat - Customer Module</title>
+<link type="text/css" rel="stylesheet" href="style.css" />
+<script src='chat.js'></script>
+<!--  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3/jquery.min.js"></script> -->
+<script>
+	
+
+</script>
+
+</head>
+<body>
+	<div id="chatarea">
+		<div id="chatareatop">
+			<H3 align='center'>CISC128 Simple Chat Program</h5>
+			<p id='theUser' align='center'>No Current User</p>
+			<div style="text-align:center;">
+    			<input type='button' class='exitclass' value='Exit Chat' onclick='removeChatUser()'>
+			</div>
+		</div>
+		 
+		<div id="chattexttbox"></div>
+		 
+		<input name="usermsg" type="text" id="msginput" size="63" onkeydown="if (event.keyCode == 13) document.getElementById('sendmsg').click()" />
+		<input name="submitmsg" type="button"  id="sendmsg" value="Send" onclick='sendMessage()'/>
+	</div>
+</body>
+</html>

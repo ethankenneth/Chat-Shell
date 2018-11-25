@@ -1,0 +1,32 @@
+/* CSS Document */
+
+/* input { font:12px arial; } */
+
+#chatarea {
+    margin:0 auto;
+    padding-bottom:25px;
+    background:#cccccc;
+    width:700px;
+    border:1px solid #ACD8F0; }
+
+#chattexttbox {
+    text-align:left;
+    /* margin:0 auto; */
+    margin-left: 20px;
+    margin-bottom:25px;
+    padding:10px;
+    background:#fff;
+    height:270px;
+    width:630px;
+    border:1px solid #ACD8F0;
+    overflow:auto; }
+
+#chatareatop { padding:12.5px 25px 12.5px 25px; }
+
+#msginput {
+    font-size:150%;
+    margin-left: 20px;
+    width:600px;
+}
+
+/* .exitchat { float:right; } */
